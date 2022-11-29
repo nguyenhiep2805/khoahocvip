@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Trang chủ</title>
+
+    <!-- ICONSCOUT CDN -->
+    <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+    />
+
+    <!-- SWIPER JS -->
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="./css/style.css"/>
+    <style>
+        body {
+            background-image: url('./images/bg-texture.png');
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div class="container nav__container">
+        <a href="index.html"><h4>Khoá Học Vip</h4></a>
+        <ul class="nav__menu">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="courses.html">Khoá học</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+        </ul>
+        <button id="open-menu-btn">
+            <i class="uil uil-bars"></i>
+        </button>
+        <button id="close-menu-btn">
+            <i class="uil uil-multiply"></i>
+        </button>
+    </div>
+</nav>
+<!-- =================== END OF NAVBAR ==================== -->
+
+<header>
+    <div class="container header__container">
+        <div class="header__left">
+            <h1>Chia sẻ khoá học miễn phí</h1>
+            <h4>Nếu bạn đang:</h4>
+            <ul>
+                <li>
+                    <i class="uil uil-check"></i> Tìm kiếm khoá học miễn phí chất
+                    lượng
+                </li>
+                <li>
+                    <i class="uil uil-check"></i> Không đủ điều kiện đăng ký khoá học
+                    chính của các thầy cô
+                </li>
+                <li>
+                    <i class="uil uil-check"></i> Bận rộn và không có thời gian xem
+                    livestream
+                </li>
+            </ul>
+            <h4>Thì <span>Khoá Học Vip</span> ở đây là vì bạn!</h4>
+        </div>
+        <div class="header_right">
+            <div class="header__right-image">
+                <img src="./images/header.svg" alt="Header"/>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- =================== END OF HEADER ==================== -->
+
+<section class="categories">
+    <div class="container categories__container">
+        <div class="categories__left">
+            <h1>Lĩnh vực</h1>
+            <p>
+                Hiện tại, Khoá Học Vip đang có hơn 500 khoá học thuộc mọi lĩnh vực
+                có thể giúp các bạn học sinh, sinh viên, người đi làm,... Học tập và
+                rèn luyện kỹ năng của mình.
+            </p>
+            <a href="courses.html" class="btn">Khám phá</a>
+        </div>
+        <div class="categories__right">
+            <article class="category">
+            <span class="category__icon"
+            ><i class="uil uil-book-reader"></i
+            ></span>
+                <h5>Luyện thi đại học</h5>
+                <p>
+                    Đầy đủ các môn Toán, Lí, Hoá, Văn, Anh,... giúp các bạn có thể ôn thi dễ dàng và hiệu quả
+                </p>
+            </article>
+            <article class="category">
+            <span class="category__icon"
+            ><i class="uil uil-brackets-curly"></i
+            ></span>
+                <h5>Lập trình</h5>
+                <p>
+                    Gồm khoá học về Python, Java, PHP,... và nhiều hơn thế nữa đang chờ các bạn khám phá
+                </p>
+            </article>
+            <article class="category">
+                <span class="category__icon"><i class="uil uil-palette"></i></span>
+                <h5>Kho đồ hoạ</h5>
+                <p>
+                    Kho dữ liệu về đồ hoạ với hơn 5000 file thiết kế sẵn có thể dễ dàng tuỳ biến theo ý thích
+                </p>
+            </article>
+            <article class="category">
+            <span class="category__icon"
+            ><i class="uil uil-english-to-chinese"></i
+            ></span>
+                <h5>Ngoại ngữ</h5>
+                <p>
+                    Dễ dàng học thêm nhiều ngôn ngữ như tiếng Anh, Hàn, Nhật, Trung,...
+                </p>
+            </article>
+            <article class="category">
+            <span class="category__icon"
+            ><i class="uil uil-desktop-alt"></i
+            ></span>
+                <h5>Tin học văn phòng</h5>
+                <p>
+                    Học trọn bộ khoá học tin học dành cho văn phòng như Word, Excel, PowerPoint,...
+                </p>
+            </article>
+            <article class="category">
+                <span class="category__icon"><i class="uil uil-books"></i></span>
+                <h5>Kho eBook</h5>
+                <p>
+                    Kho eBook đa dạng thể loại với hơn 1200 đầu sách sẽ mang đến cho bạn một thế giới sách đa màu sắc
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+<!-- =================== END OF CATEGORIES ==================== -->
+
+<section class="courses">
+    <h2>Khoá học nổi bật</h2>
+    <div class="container courses__container">
+        <article class="course">
+            <div class="course__image">
+                <img src="./images/course1.jpg" alt="Course 1"/>
+            </div>
+            <div class="course__info">
+                <h4>Master HTML and CSS</h4>
+                <p>
+                    Tìm hiểu HTML5, CSS3 và thiết kế web hiện đại bằng cách xây dựng một trang web tuyệt đẹp cho portfolio của bạn! Bao gồm flexbox và CSS Grid
+                </p>
+                <a href="courses.html" class="btn btn-primary">Nhận ngay</a>
+            </div>
+        </article>
+
+        <article class="course">
+            <div class="course__image">
+                <img src="./images/course2.jpg" alt="Course 2"/>
+            </div>
+            <div class="course__info">
+                <h4>Master JavaScript</h4>
+                <p>
+                    Khóa học JavaScript hiện đại dành cho tất cả mọi người! Làm chủ JavaScript với các dự án, thử thách và lý thuyết. Gồm nhiều kỹ năng trong khoá học!
+                </p>
+                <a href="courses.html" class="btn btn-primary">Nhận ngay</a>
+            </div>
+        </article>
+
+        <article class="course">
+            <div class="course__image">
+                <img src="./images/course3.jpg" alt="Course 3"/>
+            </div>
+            <div class="course__info">
+                <h4>Master Node.JS</h4>
+                <p>
+                    Master Node bằng cách xây dựng ứng dụng web và API RESTful trong thế giới thực (với xác thực, bảo mật Node.js, thanh toán, v.v.)
+                </p>
+                <a href="courses.html" class="btn btn-primary">Nhận ngay</a>
+            </div>
+        </article>
+
+        <article class="course">
+            <div class="course__image">
+                <img src="./images/course4.jpg" alt="Course 4"/>
+            </div>
+            <div class="course__info">
+                <h4>Phác đồ NAP 9,5+</h4>
+                <p>
+                    Khoá học cùng với thầy NAP giúp ôn tập môn hoá học đúng theo lộ trình thi THPT QG giúp học sinh nâng cao khả năng giải những bài tập nâng cao
+                </p>
+                <a href="courses.html" class="btn btn-primary">Nhận ngay</a>
+            </div>
+        </article>
+
+        <article class="course">
+            <div class="course__image">
+                <img src="./images/course5.jpg" alt="Course 5"/>
+            </div>
+            <div class="course__info">
+                <h4>AutoCAD cơ bản, nâng cao</h4>
+                <p>
+                    Khóa học cùng giảng viên Cầm Hải Phương với nhiều năm kinh nghiệm sẽ giúp bạn nắm vững được toàn bộ kiến thức cơ bản nhất
+                </p>
+                <a href="courses.html" class="btn btn-primary">Nhận ngay</a>
+            </div>
+        </article>
+
+        <article class="course">
+            <div class="course__image">
+                <img src="./images/course6.jpg" alt="Course 6"/>
+            </div>
+            <div class="course__info">
+                <h4>Kho khoá học và tài nguyên</h4>
+                <p>
+                    Tổng hợp hơn 500 khoá học, hàng ngàn tài liệu và kho dữ liệu đồ hoạ siêu khủng lên đến 3TB...
+                </p>
+                <a href="courses.html" class="btn btn-primary">Nhận ngay</a>
+            </div>
+        </article>
+    </div>
+</section>
+<!-- =================== END OF COURSES ==================== -->
+
+<section class="faqs">
+    <h2>Câu hỏi thường gặp</h2>
+    <div class="container faqs__container">
+        <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Tôi có phải mất phí để học toàn bộ khoá học không?</h4>
+                <p>
+                    Bạn hãy làm theo hướng dẫn ở mục
+                    <a href="courses.html" target="_blank">khoá học</a> để nhận tất cả
+                    các khoá học hiện có trên Khoá Học Vip một cách hoàn toàn miễn phí
+                    nhé!
+                </p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Tôi có thể liên hệ với admin bằng cách nào?</h4>
+                <p>
+                    Bạn có thể liên hệ qua biểu mẫu hoặc các kênh mạng xã hội ở mục
+                    <a href="contact.html">liên hệ</a> để được chúng tôi tư vấn và hỗ
+                    trợ.
+                </p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Thời hạn của khoá học là bao lâu?</h4>
+                <p>Thời hạn của toàn bộ khoá học trên website là vĩnh viễn.</p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Tại sao tôi cần phải tải app để có thể nhận khoá học?</h4>
+                <p>
+                    Việc duy trì website cũng như cập nhật khoá học cần một khoảng chi phí khá lớn. Nguồn thu giúp duy trì website đó chính là hoa học khi các bạn tải app. Mong bạn thông cảm.
+                </p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Tôi không tải app mà nhận khoá học được không?</h4>
+                <p>
+                    Khoá Học VIP đã chia sẻ một số khoá học công khai, bạn có thể nhận trực tiếp mà không cần tải app.
+                </p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Hướng dẫn donate cho Khoá Học VIP</h4>
+                <p>
+                    Khi donate cho Khoá Học VIP từ 99k trở lên bạn sẽ nhận được full quyền truy cập vào các khoá học có trên website.
+                    Thông tin chuyển khoản: Số tài khoản 71111119111111. Ngân hàng: MB Bank. Sau khi donate bạn hãy chụp bill và gửi vào phần
+                    <a href="contact.html">liên hệ</a> để được hỗ trợ.
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+<!-- =================== END OF FAQs ==================== -->
+
+<section class="container testimonials__container mySwiper">
+    <h2>Phản hồi</h2>
+    <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar1.jpg" alt="Avatar 1"/>
+            </div>
+            <div class="testimonial__info">
+                <h5>Trúc Anh</h5>
+                <small>Học Sinh</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur consequuntur culpa
+                    cupiditate deleniti ducimus est, fugit inventore natus necessitatibus obcaecati odio omnis optio
+                    quae quam quidem reiciendis repellat tempore.
+                </p>
+            </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar2.jpg" alt="Avatar 2"/>
+            </div>
+            <div class="testimonial__info">
+                <h5>Gia Minh</h5>
+                <small>Web developer</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+                    eius molestias error quae nihil! Error impedit odit accusantium
+                    saepe atque, incidunt culpa velit doloribus consectetur
+                    repudiandae blanditiis sint quam officiis!
+                </p>
+            </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar3.jpg" alt="Avatar 3"/>
+            </div>
+            <div class="testimonial__info">
+                <h5>Chí Bảo</h5>
+                <small>Học Sinh</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    Nhờ biết đến Khoá Học Vip mà em có thể tiết kiệm được chi phí đăng ký khoá học luyện thi đại học.
+                    Cảm ơn admin đã hỗ trợ nhiệt tình
+                </p>
+            </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar4.jpg" alt="Avatar 4"/>
+            </div>
+            <div class="testimonial__info">
+                <h5>Hà Phương</h5>
+                <small>Sinh Viên</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    Tuy là khoá học miễn phí nhưng vô cùng đầy đủ và chất lượng. Xứng đáng 5 sao
+                </p>
+            </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar5.jpg" alt="Avatar 5"/>
+            </div>
+            <div class="testimonial__info">
+                <h5>Quốc Thái</h5>
+                <small>Sinh Viên</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+                    eius molestias error quae nihil! Error impedit odit accusantium
+                    saepe atque, incidunt culpa velit doloribus consectetur
+                    repudiandae blanditiis sint quam officiis!
+                </p>
+            </div>
+        </article>
+    </div>
+    <div class="swiper-pagination"></div>
+</section>
+<!-- =================== END OF TESTIMOIALS ==================== -->
+
+<footer>
+    <div class="container footer__container">
+        <div class="footer__1">
+            <a href="index.html" class="footer__logo"><h4>Khoá Học Vip</h4></a>
+            <p>
+                Khoá học miễn phí - Chất lượng - Uy tín
+            </p>
+        </div>
+
+        <div class="footer__2">
+            <h4>Liên kết</h4>
+            <ul class="permalinks">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="courses.html">Khoá học</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__3">
+            <h4>Primacy</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Teams and conditions</a></li>
+                <li><a href="#">Refund policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__4">
+            <h4>Liên hệ</h4>
+            <div>
+                <p>+01 234 567 8910</p>
+                <p>khoahocvip.site@gmail.com</p>
+            </div>
+            <ul class="footer__socials">
+                <li>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        <small>Copyright &copy; Hiep Code</small>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
